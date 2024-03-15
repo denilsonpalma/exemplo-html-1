@@ -12,12 +12,12 @@
 		<h2>Página com exemplos de uso de tags HTML</h2>
 		<hr>
 		<h2>Tags</h2>
-		A marcação de conteúdo é feita por meio de tags. As tags são iniciadas com &lt; e fechadas com &gt;.
+		<p>A marcação de conteúdo é feita por meio de tags. As tags são iniciadas com &lt; e fechadas com &gt;.
 		Algumas tags não precisam de fechamento, enquanto grande parte é necessário. A tag de fechamento se assemelha a de abertura, contendo uma barra "/" <br>
 		Exemplo de tag sem fechamento:<br>
 		&lt;img src='image.png'&gt;<br>
 		Exemplo de tag com fechamento:<br>
-		&lt;p&gt;linha de texto&lt;/p&gt;
+		&lt;p&gt;linha de texto&lt;/p&gt;</p>
 		
 		<h2>Cabeçalho</h2>
 		<p>Utiliza-se as tags &lt;h1&gt; ate &lt;h6&gt;.<br>
