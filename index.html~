@@ -23,28 +23,44 @@
 		<p>Utiliza-se as tags &lt;h1&gt; ate &lt;h6&gt;.<br>
 		Exemplo:</p>
 		<h1>Texto em h1</h1>
-		<p>&lt;h1&gt;Texto em h1&lt;/h1&gt;</p>
+		<code><p>&lt;h1&gt;Texto em h1&lt;/h1&gt;</p></code>
 		<h2>Texto em h2</h2>
-		<p>&lt;h2&gt;Texto em h2&lt;/h2&gt;</p>
+		<code><p>&lt;h2&gt;Texto em h2&lt;/h2&gt;</p></code>
 		<h3>Texto em h3</h3>
-		<p>&lt;h3&gt;Texto em h3&lt;/h3&gt;</p>
+		<code><p>&lt;h3&gt;Texto em h3&lt;/h3&gt;</p></code>
 		<h4>Texto em h4</h4>
-		<p>&lt;h4&gt;Texto em h4&lt;/h4&gt;</p>
+		<code><p>&lt;h4&gt;Texto em h4&lt;/h4&gt;</p></code>
 		<h5>Texto em h5</h5>
-		<p>&lt;h5&gt;Texto em h5&lt;/h5&gt;</p>
+		<code><p>&lt;h5&gt;Texto em h5&lt;/h5&gt;</p></code>
 		<h6>Texto em h6</h6>
-		<p>&lt;h6&gt;Texto em h6&lt;/h6&gt;</p>
+		<code><p>&lt;h6&gt;Texto em h6&lt;/h6&gt;</p></code>
 		
 		<hr>		
 		
 		<h1>Paragrafos</h1>
-		<p>Utiliza-se a tag &lt;p&gt; para paragrafos</p>
-		<br>
-		<p>&lt;br&gt; para quebra<br>
-		de texto, quebra de linha</p>
+		<!-- p -->
+		<p>
+			Utiliza-se a tag &lt;p&gt; para paragrafos<br>
+			&lt;p&gt;Seu paragráfo!&lt;br&gt;
+		</p>
+		<!-- br -->
+		<p>
+			&lt;br&gt; para quebra<br>
+			de texto, quebra de linha
+		</p>		
+		<!-- mark -->
+		<p>
+			Use a tag &lt;mark&gt; para destacar um texto<br>
+			<mark>texto em destaque</mark><br>
+			&lt;mark&gt;texto em destaque&lt;/mark&gt;			
+		</p>		
+		<!-- small -->
+		<p>	
+			&lt;small&gt; para texto em tamanho reduzido
+			<small>frase em texto reduzido</small>
+			<code>&lt;small&gt;frase em texto reduzido&lt;/small&gt;</code>			
+		</p>
 		
-		<mark>texto em destaque</mark>
-		<small>texto menor</small>
 		
 			<i>italico</i>
 			<u>sublinhado</u>
@@ -69,7 +85,8 @@
 		
 		<font></font>
 		<del>Texto removido</del>
-		<abbr>AB</abbr>Abreviacao 
+		<abbr>AB</abbr>Abreviacao <br>
+		
 		
 	
 	</body>
