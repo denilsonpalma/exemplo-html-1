@@ -15,13 +15,13 @@
 		<p>A marcação de conteúdo é feita por meio de tags. As tags são iniciadas com &lt; e fechadas com &gt;.
 		Algumas tags não precisam de fechamento, enquanto grande parte é necessário. A tag de fechamento se assemelha a de abertura, contendo uma barra "/" <br>
 		Exemplo de tag sem fechamento:<br>
-		&lt;img src='image.png'&gt;<br>
+		<code>&lt;img src='image.png'&gt;</code><br>
 		Exemplo de tag com fechamento:<br>
-		&lt;p&gt;linha de texto&lt;/p&gt;</p>
+		<code>&lt;p&gt;linha de texto&lt;/p&gt;</p></code>
 		
 		<h2>Cabeçalho</h2>
-		<p>Utiliza-se as tags &lt;h1&gt; ate &lt;h6&gt;.<br>
-		Exemplo:</p>
+		<p>Utiliza-se as tags &lt;h1&gt; até &lt;h6&gt;.<br>
+		Exemplo:</p>S
 		<h1>Texto em h1</h1>
 		<code><p>&lt;h1&gt;Texto em h1&lt;/h1&gt;</p></code>
 		<h2>Texto em h2</h2>
@@ -37,22 +37,28 @@
 		
 		<hr>		
 		
-		<h1>Paragrafos</h1>
+		<h2>Parágrafos</h2>
 		<!-- p -->
 		<p>
-			Utiliza-se a tag &lt;p&gt; para paragrafos<br>
-			&lt;p&gt;Seu paragráfo!&lt;br&gt;
+			<h3>Parágrafo</h3>
+			Utiliza-se a tag &lt;p&gt; para parágrafos<br>
+			<code>&lt;p&gt;Seu parágrafo!&lt;br&gt;</code>
 		</p>
 		<!-- br -->
 		<p>
-			&lt;br&gt; para quebra<br>
-			de texto, quebra de linha
+			<h3>Quebra-de-linha</h3>
+			&lt;br&gt; para quebra de linha, pular para próxima linha<br>
+			<p>Texto sem quebra de linha</p>
+			<p>Texto com<br>
+			quebra de linha</p>
+			<p><code>Texto com&lt;br&gt;quebra de linha</code></p>
 		</p>		
 		<!-- mark -->
 		<p>
+			<h3>Destacar texto</h3>
 			Use a tag &lt;mark&gt; para destacar um texto<br>
 			<mark>texto em destaque</mark><br>
-			&lt;mark&gt;texto em destaque&lt;/mark&gt;			
+			<code>&lt;mark&gt;texto em destaque&lt;/mark&gt;</code>
 		</p>		
 		<!-- small -->
 		<p>	
@@ -60,10 +66,15 @@
 			<small>frase em texto reduzido</small>
 			<code>&lt;small&gt;frase em texto reduzido&lt;/small&gt;</code>			
 		</p>
-		
-		
-			<i>italico</i>
+		<!-- i - italico -->
+		<p>
+			<h3>Itálico</h3>
+			Para colocar uma palavra ou termo em <i>itálico</i>, use:<br>
+			&lt;i&gt;termo em itálico&gt;
+		</p>
+		<p>
 			<u>sublinhado</u>
+		</p>
 			<strong>destaque</strong>
 			
 		<hr>
