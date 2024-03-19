@@ -10,6 +10,7 @@
 		<h1>HTML</h1>
 		<p>Linguagem de Marcação de Hipertexto (HyperText Markup Language).
 		<h2>Página com exemplos de uso de tags HTML</h2>
+
 		<hr>
 		<h2>Tags</h2>
 		<p>A marcação de conteúdo é feita por meio de tags. As tags são iniciadas com &lt; e fechadas com &gt;.
@@ -19,6 +20,7 @@
 		Exemplo de tag com fechamento:<br>
 		<code>&lt;p&gt;linha de texto&lt;/p&gt;</p></code>
 		
+		<hr>
 		<h2>Cabeçalho</h2>
 		<p>Utiliza-se as tags &lt;h1&gt; até &lt;h6&gt;.<br>
 		Exemplo:</p>
@@ -55,7 +57,7 @@
 		</p>		
 		<!-- mark -->
 		<p>
-			<h3>Destacar texto</h3>
+			<h3>Destacar ou marcar texto</h3>
 			Use a tag &lt;mark&gt; para destacar um texto<br>
 			<mark>texto em destaque</mark><br>
 			<code>&lt;mark&gt;texto em destaque&lt;/mark&gt;</code>
@@ -80,19 +82,32 @@
 			<u>texto sublinhado</u><br>
 			<code>&lt;u&gt;texto sublinhado&lt;/u&gt;</code>
 		</p>
-			<strong>destaque</strong>
+		<!-- strong -->
+		<p>
+			<h3>Importante</h3>
+			<p>Para frases, palavras, trechos de texto que necessita de destacar importância, pode se utilizar o &lt;strong&gt;.</p>
+			<p>Esta palavra é <strong>importante</strong>!</p>
+			<p><code>Esta palavra é &lt;strong&gt;importante&lt;/strong&gt;!</code></p>
 			
+		</p>	
+		
 		<hr>
 		<h2>Listas</h2>
-		<ul>
-			<li>item 1</li>
-			<li>item 2</li>
-		</ul>
-		
-		<ol>
+		<p>
+			Lista ordenada
+			<ol>
 			<li>item a</li>
 			<li>item b</li>
-		</ol>
+			</ol>	
+		</p>
+		<p>
+			Lista não ordenada
+			<ul>
+				<li>item 1</li>
+				<li>item 2</li>
+			</ul>
+		</p>
+		
 		
 		<a>Link</a>
 		<sub>texto sub</sub>
